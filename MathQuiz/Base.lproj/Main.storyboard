@@ -18,7 +18,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yOm-eO-Dti">
                                 <rect key="frame" x="20" y="44" width="54.5" height="102.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="85"/>
-                                <color key="textColor" red="0.96848052740097046" green="0.88160275155665047" blue="0.30884509318195569" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <size key="shadowOffset" width="3" height="1"/>
@@ -26,7 +26,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="x" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GHx-70-xwc">
                                 <rect key="frame" x="20" y="759.5" width="44" height="102.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="85"/>
-                                <color key="textColor" red="0.96848052740000001" green="0.88160275160000001" blue="0.30884509319999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <size key="shadowOffset" width="4" height="1"/>
@@ -34,7 +34,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="÷" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I5f-Cp-4LV">
                                 <rect key="frame" x="329.5" y="741.5" width="64.5" height="120.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="100"/>
-                                <color key="textColor" red="0.96848052740000001" green="0.88160275160000001" blue="0.30884509319999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <size key="shadowOffset" width="4" height="1"/>
@@ -42,19 +42,19 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="−" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IRm-qN-Fbv">
                                 <rect key="frame" x="338.5" y="44" width="55.5" height="102.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="85"/>
-                                <color key="textColor" red="0.96848052740000001" green="0.88160275160000001" blue="0.30884509319999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <size key="shadowOffset" width="4" height="1"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XZ7-ee-U8D">
-                                <rect key="frame" x="81" y="498.5" width="252" height="59"/>
-                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="40"/>
+                                <rect key="frame" x="89.5" y="496" width="235" height="64"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="40"/>
                                 <state key="normal" title="Click to Start">
                                     <color key="titleColor" red="0.0" green="0.22503653613138608" blue="0.84267407655715942" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
-                                    <segue destination="CCN-Zk-GCo" kind="show" id="RXs-9g-LXi"/>
+                                    <segue destination="CCN-Zk-GCo" kind="presentation" id="RXs-9g-LXi"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Principal's Math Club" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Mr-JB-L3P">
@@ -96,19 +96,102 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cS1-vD-aSN">
-                                <rect key="frame" x="184" y="397" width="46" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="6C0-cg-bdu" kind="show" id="gb1-hR-aTT"/>
-                                </connections>
-                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Select Operation(s)" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9d8-wf-424">
+                                <rect key="frame" x="23" y="121.5" width="368.5" height="44.5"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="mkm-Hd-JWn">
+                                <rect key="frame" x="26.5" y="195" width="361" height="452"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="80" translatesAutoresizingMaskIntoConstraints="NO" id="lgU-jh-Vlr">
+                                        <rect key="frame" x="0.0" y="0.0" width="75" height="452"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cWV-tX-DIz">
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="197"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="150"/>
+                                                <size key="titleShadowOffset" width="3" height="1"/>
+                                                <state key="normal" title="+">
+                                                    <color key="titleColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="addButtonPressed:" destination="CCN-Zk-GCo" eventType="touchUpInside" id="pRZ-26-D6I"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cru-ZX-HuF">
+                                                <rect key="frame" x="0.0" y="277" width="75" height="175"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="136"/>
+                                                <size key="titleShadowOffset" width="3" height="1"/>
+                                                <state key="normal" title="x">
+                                                    <color key="titleColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="multiplyButtonPressed:" destination="CCN-Zk-GCo" eventType="touchUpInside" id="6VW-Zv-wx2"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cS1-vD-aSN" userLabel="Confirm">
+                                        <rect key="frame" x="105" y="0.0" width="143" height="452"/>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="40"/>
+                                        <state key="normal" title="Confirm">
+                                            <color key="titleColor" red="0.0" green="0.22503653609999999" blue="0.84267407660000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="6C0-cg-bdu" kind="show" id="gb1-hR-aTT"/>
+                                        </connections>
+                                    </button>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="80" translatesAutoresizingMaskIntoConstraints="NO" id="B3v-Pq-QHg">
+                                        <rect key="frame" x="278" y="0.0" width="83" height="452"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C4U-qI-a51">
+                                                <rect key="frame" x="0.0" y="0.0" width="83" height="186"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="150"/>
+                                                <size key="titleShadowOffset" width="3" height="1"/>
+                                                <state key="normal" title="−">
+                                                    <color key="titleColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="minusButtonPressed:" destination="CCN-Zk-GCo" eventType="touchUpInside" id="0xF-f3-sJb"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="smN-d8-zR7">
+                                                <rect key="frame" x="0.0" y="266" width="83" height="186"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="150"/>
+                                                <size key="titleShadowOffset" width="3" height="1"/>
+                                                <state key="normal" title="÷">
+                                                    <color key="titleColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="divideButtonPressed:" destination="CCN-Zk-GCo" eventType="touchUpInside" id="GoW-Qu-6au"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.73476706380000001" green="0.92813134149999998" blue="0.96130555870000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="9d8-wf-424" firstAttribute="centerX" secondItem="UBa-Wz-LYE" secondAttribute="centerX" id="FJS-3A-E6T"/>
+                            <constraint firstItem="mkm-Hd-JWn" firstAttribute="centerX" secondItem="UBa-Wz-LYE" secondAttribute="centerX" id="L1f-3G-6Y3"/>
+                            <constraint firstItem="mkm-Hd-JWn" firstAttribute="centerY" secondItem="UBa-Wz-LYE" secondAttribute="centerY" id="V1L-Uz-O0W"/>
+                            <constraint firstItem="mkm-Hd-JWn" firstAttribute="centerX" secondItem="UBa-Wz-LYE" secondAttribute="centerX" id="vwR-HK-5nx"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="A1w-lL-9yf"/>
                     </view>
                     <navigationItem key="navigationItem" id="ytm-9W-hVU"/>
+                    <connections>
+                        <outlet property="addButton" destination="cWV-tX-DIz" id="ZRg-zt-e1m"/>
+                        <outlet property="divideButton" destination="smN-d8-zR7" id="MZp-Lh-8Oy"/>
+                        <outlet property="minusButton" destination="C4U-qI-a51" id="fJa-Rm-pKh"/>
+                        <outlet property="multiplyButton" destination="Cru-ZX-HuF" id="d4b-mF-WvK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yrh-02-OLX" sceneMemberID="firstResponder"/>
             </objects>
