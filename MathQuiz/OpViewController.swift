@@ -63,7 +63,6 @@ class OpViewController: UIViewController {
         } else {
             divideButton.setTitleColor(.green, for: .normal)
             isDivideGreen = true
-            print("test")
         }
     }
 }
