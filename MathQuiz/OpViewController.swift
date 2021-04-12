@@ -19,6 +19,7 @@ class OpViewController: UIViewController {
     var isMinusGreen: Bool  = false
     var isMultiplyGreen: Bool = false
     var isDivideGreen: Bool = false
+    var x = 6
     
     override func viewDidLoad() {
         super.viewDidLoad()
