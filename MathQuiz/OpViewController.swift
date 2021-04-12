@@ -15,6 +15,11 @@ class OpViewController: UIViewController {
     @IBOutlet weak var multiplyButton: UIButton!
     @IBOutlet weak var divideButton: UIButton!
     
+    var isAddGreen: Bool = false
+    var isMinusGreen: Bool  = false
+    var isMultiplyGreen: Bool = false
+    var isDivideGreen: Bool = false
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,18 +27,42 @@ class OpViewController: UIViewController {
     }
     
     @IBAction func addButtonPressed(_ sender: UIButton) {
-        addButton.setTitleColor(.green, for: .normal)
+        if addButton.titleColor(for: .normal) == .green {
+            addButton.setTitleColor(.systemYellow, for: .normal)
+            isAddGreen = false
+        } else {
+            addButton.setTitleColor(.green, for: .normal)
+            isAddGreen = true
+        }
     }
     
     @IBAction func minusButtonPressed(_ sender: UIButton) {
-        minusButton.setTitleColor(.green, for: .normal)
+        if minusButton.titleColor(for: .normal) == .green {
+            minusButton.setTitleColor(.systemYellow, for: .normal)
+            isMinusGreen = false
+        } else {
+            minusButton.setTitleColor(.green, for: .normal)
+            isMinusGreen = true
+        }
     }
     
     @IBAction func multiplyButtonPressed(_ sender: UIButton) {
-        multiplyButton.setTitleColor(.green, for: .normal)
+        if multiplyButton.titleColor(for: .normal) == .green {
+            multiplyButton.setTitleColor(.systemYellow, for: .normal)
+            isMultiplyGreen = false
+        } else {
+            multiplyButton.setTitleColor(.green, for: .normal)
+            isMultiplyGreen = true
+        }
     }
     
     @IBAction func divideButtonPressed(_ sender: UIButton) {
-        divideButton.setTitleColor(.green, for: .normal)
+        if divideButton.titleColor(for: .normal) == .green {
+            divideButton.setTitleColor(.systemYellow, for: .normal)
+            isDivideGreen = false
+        } else {
+            divideButton.setTitleColor(.green, for: .normal)
+            isDivideGreen = true
+        }
     }
 }

@@ -208,7 +208,7 @@
                         <viewLayoutGuide key="safeArea" id="yAQ-EI-C3T"/>
                     </view>
                     <navigationItem key="navigationItem" id="rSg-z5-MHs">
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="cQj-yq-UrA">
+                        <barButtonItem key="rightBarButtonItem" title="View Results" id="cQj-yq-UrA">
                             <connections>
                                 <segue destination="FXm-qs-sqP" kind="show" id="g5k-w7-GNf"/>
                             </connections>
